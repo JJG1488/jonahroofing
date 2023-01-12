@@ -22,7 +22,7 @@
     <div id="page-wrapper">
       <!-- Header -->
       <header id="header" class="alt">
-        <h1><a href="index.html">Pointe Roofing Improvements</a></h1>
+        <h1></h1>
         <nav id="nav">
           <ul>
             <li class="special">
@@ -46,7 +46,7 @@
         <div class="inner">
           <h2>Pointe Roofing Improvements</h2>
 
-          <p style="margin: 10%">
+          <p style="margin: 1% 10%">
             Family owned, Professional Pointe Roofing with Brighter Side
             Solutions has maintained its reputation for our attentive and
             personable relativeness, remaining aware of all our clients roofing
@@ -57,7 +57,7 @@
             free estimate at your earliest convenience.
           </p>
 
-          <p style="margin: 10%">
+          <p style="margin: 5% 10%">
             Our contractors work with residential clients and commercial
             business owners, offering first-class roofing services, roof
             replacement and roof repair. Interested?
@@ -127,12 +127,7 @@
       <section id="two" class="wrapper alt style2">
         <section class="spotlight">
           <div class="image">
-            <img
-              src="images/lauren.jpeg"
-              alt="photo of client with child"
-              width="300"
-              height="400"
-            />
+            <img src="images/lauren.jpeg" alt="photo of client with child" />
           </div>
           <div class="content">
             <h2>Lauren<br /></h2>
@@ -155,12 +150,7 @@
         </section>
         <section class="spotlight">
           <div class="image">
-            <img
-              src="images/dan.jpeg"
-              alt="Photo of Dans"
-              width="300"
-              height="400"
-            />
+            <img src="images/dan.jpeg" alt="Photo of Dan" />
           </div>
           <div class="content">
             <h2>Dan</h2>
@@ -178,7 +168,7 @@
         </section>
         <section class="spotlight">
           <div class="image">
-            <img src="images/james.jpeg" alt="" width="300" height="400" />
+            <img src="images/james.jpeg" alt="" />
           </div>
           <div class="content">
             <h2>James</h2>
@@ -191,12 +181,30 @@
           </div>
         </section>
 
-        <form action="submit">
+        <form
+          action="submit"
+          enctype="application/x-www-form-urlencoded"
+          method="post"
+          style="
+            border-radius: 12px;
+            border: solid rgba(201, 201, 201, 1);
+            margin: 2%;
+            box-shadow: -1px 1px 10px rgba(201, 201, 201, 1);
+          "
+        >
           <br />
-          <h4>Submit review or <a href="">see all reviews</a></h4>
-          <input type="text-area" />
+          <h4 style="text-align: center">
+            Submit review or <a href="index.html">see all reviews</a>
+          </h4>
+          <textarea
+            name="taReview"
+            id="taReview"
+            cols="30"
+            rows="10"
+            style="background-color: aliceblue; color: black"
+          ></textarea>
           <br />
-          <input type="Submit" />
+          <input type="submit" style="margin: auto" />
           <br />
         </form>
       </section>
