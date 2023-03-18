@@ -33,6 +33,12 @@ body {
 	line-height: 1;
 }
 
+section #banner{
+	border: solid red 10px;
+	background: url("./images/mainPhoneSize.png");
+
+}
+
 h1 {
 	font-size: xx-large;
 }
@@ -74,6 +80,17 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
+}
+
+/* About us page */
+
+img {
+	width: 300px;
+	height: 500px;
+    border: 1px solid #ccc;
+	border-radius: 50%;
+    margin: 0 auto;
+    display: block;
 }
 
 /* Basic */
@@ -1513,6 +1530,8 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
+			
+
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -2821,8 +2840,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
-			color: #c8ece9;
+			color: #21b2a6;
+			background-color: rgba(0, 0, 0, 0.3);
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -2830,7 +2849,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6 {
-				color: #ffffff;
+				color: #21b2a6;
 			}
 
 			.wrapper.style1 hr {
@@ -3586,6 +3605,7 @@ input, select, textarea {
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+		
 	}
 
 		#banner h2 {
@@ -3870,10 +3890,13 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
+			
+			
 
 			#main > header {
 				padding: 5em 3em 3em 3em ;
 			}
+			
 
 				#main > header h2 {
 					font-size: 1.25em;
@@ -3958,6 +3981,23 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
+			
+
+			#footer {
+				padding: 3em 2em 1em 2em ;
+			}
+
+		}
+
+		@media screen and (min-width: 390px) {
+			#banner {
+				background-image:image('./images/arrow.svg');
+				background-size:cover;
+				background-repeat: no-repeat;
+				border: solid red 10px;
+				width: 100%;
+				height: 100%;
+			}
 
 			#footer {
 				padding: 3em 2em 1em 2em ;
