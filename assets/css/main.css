@@ -97,7 +97,7 @@ section, summary, time, mark, audio, video {
 #cta div.inner {
 	/* border: solid 1px red; */
 
-	grid: auto;
+	grid: auto !important;
 	justify-items: center;
 	width: 100%;
 	justify-content: center;
@@ -107,7 +107,7 @@ section, summary, time, mark, audio, video {
     justify-content: center;
     align-content: center;
     align-items: center;
-    justify-content: center;
+    justify-content: center;;
 
 }
 
@@ -145,6 +145,7 @@ section, summary, time, mark, audio, video {
 /* ////////// */
 /* ////////// */
 /* ////////// */
+
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -232,7 +233,24 @@ input, select, textarea {
 
 /* About us page */
 
+p.wrapper{
+	max-width: 1200px;
+	font-size: 1em !important;
+	/* padding: 20% !important; */
+}
+
+#jonahBanner {
+	position: relative;
+	max-width: 50% !important;
+    /* width: 100%; */
+    height: 100%;
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 img {
+	
 	width: 100%;
     height: auto;
     max-width: 100%;
@@ -304,8 +322,8 @@ img {
 
 			body, input, select, textarea {
 				font-size: 13pt;
-			}
 
+			}
 			
 
 		}
@@ -498,6 +516,38 @@ img {
 
 	.align-right {
 		text-align: right;
+	}
+
+	div.inner {
+		/* border: solid red 2px; */
+		grid: auto !important;
+	justify-items: center;
+	width: 100%;
+	justify-content: center;
+	text-align: center;
+	align-content: center;
+	align-items: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+		display: block !important;
+		align-items: center;
+	}
+
+	.wrapper {
+		/* border: solid red 2px; */
+		/* display: block!important; */
+		margin: 0 auto;
+		align-items: center;
+		text-align: center;
+	}
+	.icons.major {
+		/* MAJOR */
+		/* border: solid red 10px; */
+		width: 100%;
+		display: flex !important;
+	
 	}
 
 /* Row */
@@ -760,6 +810,38 @@ section, summary, time, mark, audio, video {
 				/* border: solid 1px red; */
 			}
 
+			div.inner {
+				/* border: solid red 2px; */
+				/* display: block !important;
+				align-items: center; */
+				grid: auto !important;
+	justify-items: center;
+	width: 100%;
+	justify-content: center;
+	text-align: center;
+	align-content: center;
+	align-items: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+			}
+
+			.wrapper {
+				/* border: solid red 2px; */
+                /* display: block!important; */
+				margin: 0 auto;
+                align-items: center;
+				text-align: center;
+			}
+			.icons.major {
+				/* MAJOR */
+				/* border: solid red 10px; */
+				width: 100%;
+				display: flex !important;
+			
+			}
+
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1005,6 +1087,51 @@ section, summary, time, mark, audio, video {
 
 		@media screen and (max-width: 1280px) {
 
+			/* <section id="cta" class="wrapper style4"> */
+
+			div.inner {
+				/* border: solid red 2px; */
+				/* display: block !important;
+				align-items: center; */
+				grid: auto !important;
+	justify-items: center;
+	width: 100%;
+	justify-content: center;
+	text-align: center;
+	align-content: center;
+	align-items: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+			}
+
+			.wrapper {
+				/* border: solid red 2px; */
+                /* display: block!important; */
+				margin: 0 auto;
+                align-items: center;
+				text-align: center;
+			}
+			.icons.major {
+				/* MAJOR */
+				/* border: solid red 10px; */
+				width: 100%;
+				display: flex !important;
+			
+			}
+			
+			.icons.major li {
+				/* MAJOR */
+				/* border: yellow solid 10px; */
+				display: inline !important;
+				max-width: 50%;
+				min-width: 20%;
+				height: 50%;
+				margin: 0 0 0 0;
+			
+			}
+
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1249,6 +1376,25 @@ section, summary, time, mark, audio, video {
 		}
 
 		@media screen and (max-width: 980px) {
+
+			.icons.major {
+				/* MAJOR */
+				/* border: solid red 10px; */
+				width: 100%;
+				display: flex !important;
+			
+			}
+			
+			.icons.major li {
+				/* MAJOR */
+				/* border: yellow solid 10px; */
+				display: inline !important;
+				max-width: 50%;
+				min-width: 20%;
+				height: 50%;
+				margin: 0 0 0 0;
+			
+			}
 
 			.row {
 				
@@ -1496,6 +1642,25 @@ section, summary, time, mark, audio, video {
 		}
 
 		@media screen and (max-width: 736px) {
+
+			.icons.major {
+				/* MAJOR */
+				/* border: solid red 10px; */
+				width: 100%;
+				display: flex !important;
+			
+			}
+			
+			.icons.major li {
+				/* MAJOR */
+				/* border: yellow solid 10px; */
+				display: inline !important;
+				max-width: 50%;
+				min-width: 20%;
+				height: 50%;
+				margin: 0 0 0 0;
+			
+			}
 
 			.row {
 				
@@ -2376,6 +2541,7 @@ section, summary, time, mark, audio, video {
 	}
 
 		.image img {
+			
 			border-radius: 3px;
 			display: block;
 		}
@@ -4103,6 +4269,17 @@ section, summary, time, mark, audio, video {
 
 			div.inner {
 				/* padding: 0 1em 0 0 !important; */
+				grid: auto !important;
+	justify-items: center;
+	width: 100%;
+	justify-content: center;
+	text-align: center;
+	align-content: center;
+	align-items: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
 			}
 
 				#cta .inner header {
@@ -4330,7 +4507,7 @@ section, summary, time, mark, audio, video {
                 bottom: 0;
                 left: 0;
                 background-image: linear-gradient(to right, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 100%);
-				background: url(./images/mainPhoneSize.png) no-repeat !important ;
+				background: url(./images/mainPhoneSize.png) no-repeat cover !important ;
 				
 				opacity: .3;
 				z-index: -1;
